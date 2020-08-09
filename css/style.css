@@ -35,7 +35,7 @@
     display: flex;
     flex-direction: column;
     width: 60%;
-    height: 2100px;
+    height: 9450px;
     background-color: #111;
     left: 0;
     right: 0;
@@ -45,13 +45,23 @@
     align-items: center;
 }
 
-#sobre_edgar, .caracteristicas_poemas {
+#sobre_edgar, .caracteristicas_poemas, .obras, .poesia, .contos, .ref {
     color: #FFF;
     font-size: 40px;
     font-family: 'Baloo Tamma 2', cursive;
 }
 
-.caracteristicas_poemas {
+.poesia {
+    padding-bottom: 40px;
+    color: #F40;
+}
+
+.contos {
+    padding-top: 30px;
+    color: #F40;
+}
+
+.caracteristicas_poemas, .obras, .ref {
     margin-top: 30px;
     margin-bottom: 20px;
 }
@@ -89,4 +99,33 @@ figcaption {
     color: #FFF;
     text-align: center;
     padding-top: 20px;;
+}
+
+.table_heading {
+    color: #FFF;
+    text-align: center;
+    font-size: 25px;
+    width: 300px;
+    padding-bottom: 20px;
+}
+
+td {
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    width: 300px;
+    padding: 10px;
+    border-bottom: solid 2px #FFF;
+}
+
+ .references, .references a {
+    padding: 20px;
+    text-decoration: none;
+    text-align: center;
+    color: #EEE;
+}
+
+.references a:hover{
+    text-decoration: underline;
+    color: #D10;
 }
