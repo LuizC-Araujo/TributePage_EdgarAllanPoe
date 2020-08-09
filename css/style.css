@@ -4,6 +4,29 @@
     padding: 0;
 }
 
+#navigation ul {
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    list-style-type: none;
+    background-color: #FFF;
+    margin: auto;
+}
+
+ul a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bolder;
+    font-size: 18px;
+}
+#navigation ul li {
+    padding: 20px 20px;
+}
+
+#navigation ul li:hover {
+    background-color: #DDD;
+}
+
 .poe_header{
     width: 100%;
     height: 200px;
@@ -12,6 +35,16 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+
+.btn_home {
+    padding: 4px 10px;
+    margin: 20px 20px 20px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: #f00;
+    color: #fff;
+    border-radius: 15px;
 }
 
 #title {
@@ -35,33 +68,39 @@
     display: flex;
     flex-direction: column;
     width: 60%;
-    height: 9450px;
+    height: 9900px;
     background-color: #111;
     left: 0;
     right: 0;
     margin: auto;
     justify-content: start;
-    padding: 20px;
+    padding: 10px;
     align-items: center;
 }
 
-#sobre_edgar, .caracteristicas_poemas, .obras, .poesia, .contos, .ref {
+#primeiros_poemas, #sobre_edgar, .caracteristicas_poemas, .obras, #poesia, #contos, #ref {
     color: #FFF;
     font-size: 40px;
     font-family: 'Baloo Tamma 2', cursive;
 }
 
-.poesia {
+.primeiros_poemas_poe {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
+}
+
+#poesia {
     padding-bottom: 40px;
     color: #F40;
 }
 
-.contos {
+#contos {
     padding-top: 30px;
     color: #F40;
 }
 
-.caracteristicas_poemas, .obras, .ref {
+.caracteristicas_poemas, .obras, #ref {
     margin-top: 30px;
     margin-bottom: 20px;
 }
@@ -75,6 +114,9 @@
     padding:20px 80px 0px 80px;
 }
 
+.first {
+    margin-top: 30px;
+}
 .primeiros_poemas {
     padding-top: 40px;
     padding-bottom: 30px;
@@ -128,4 +170,20 @@ td {
 .references a:hover{
     text-decoration: underline;
     color: #D10;
+}
+
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: #111;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+}
+
+.p_footer {
+    width: 100%;
+    height: 100%;
+    color: #DDD;
+    text-align: center;
 }
